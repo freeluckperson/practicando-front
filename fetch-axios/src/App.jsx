@@ -1,3 +1,4 @@
+import CardComponent from "./Card";
 import { useFetch } from "./useFetch";
 
 const App = () => {
@@ -15,6 +16,8 @@ const App = () => {
           <ol>{`${user.first_name} ${user.last_name}`}</ol>
         ))}
       </ul>
+      <hr />
+      <CardComponent />
     </div>
   );
 };
